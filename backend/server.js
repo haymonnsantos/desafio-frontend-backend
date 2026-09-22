@@ -10,17 +10,17 @@ api.use(express.json())
 api.get('/', (req, res) => {
     const biblioteca = [
         {
-            nome: 'Livro de Filosofia', 
+            nome: 'Crime e Castigo', 
             preco: 50.00, 
-            categoria: 'Humanas'
+            categoria: 'Filosofia'
         },
         {
-            nome: 'Livro de História',
+            nome: 'O que faz o brasil, Brasil?',
             preco: 40.00,
-            categoria: 'Humanas'
+            categoria: 'Sociologia'
         },
         {
-            nome: 'Livro de Matemática',
+            nome: 'Fundamento da Matemática Elementar',
             preco: 60.00,
             categoria: 'Exatas'
         }

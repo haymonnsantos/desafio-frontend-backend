@@ -1,0 +1,36 @@
+body 
+{
+font-family: Arial, sans-serif;
+padding: 20px;
+}
+h1
+{
+    text-align: center;
+}
+
+#lista-produtos 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card 
+{
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card h2
+{
+    margin-top: 0;
+}
+.card p
+{
+    margin: 8px 0;
+}
+.card p:last-child 
+{
+    font-weight: bold;
+}
