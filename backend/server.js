@@ -12,17 +12,20 @@ api.get('/', (req, res) => {
         {
             nome: 'Crime e Castigo', 
             preco: 50.00, 
-            categoria: 'Filosofia'
+            categoria: 'Filosofia',
+            imagem: 'https://m.media-amazon.com/images/I/916WkSH4cGL.jpg'
         },
         {
             nome: 'O que faz o brasil, Brasil?',
             preco: 40.00,
-            categoria: 'Sociologia'
+            categoria: 'Sociologia',
+            imagem: 'https://m.media-amazon.com/images/I/91C-xWqh8qL._AC_UF1000,1000_QL80_.jpg'
         },
         {
             nome: 'Fundamentos da Matemática Elementar',
             preco: 60.00,
-            categoria: 'Exatas'
+            categoria: 'Exatas',
+            imagem:  'https://m.media-amazon.com/images/I/71KGGRF6WTL.jpg'
         }
     ]
     

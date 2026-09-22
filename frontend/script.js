@@ -8,6 +8,7 @@ async function obterBiblioteca() {
 
         const card = `
             <div class="card">
+            <img src="${livro.imagem}" alt="${livro.nome}">
                 <h2>${livro.nome}</h2>
                 <p>Categoria: ${livro.categoria}</p>
                 <p>Preço: R$ ${livro.preco}</p>
