@@ -20,7 +20,7 @@ api.get('/', (req, res) => {
             categoria: 'Sociologia'
         },
         {
-            nome: 'Fundamento da Matemática Elementar',
+            nome: 'Fundamentos da Matemática Elementar',
             preco: 60.00,
             categoria: 'Exatas'
         }
